@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Habibi&display=swap');
+
+body{
+    font-family: 'Habibi', serif;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 569px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  padding: 20px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.input_1 {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.656);
+}
+
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Fanwood Text", serif;
+}
+
+.main p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
